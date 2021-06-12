@@ -1,6 +1,6 @@
 # Gym Website
 
-Creatin gym website using html and css only.
+Creating gym website using html and css only.
 
 ## Installation
 Just download and enjoy Gym Website.
