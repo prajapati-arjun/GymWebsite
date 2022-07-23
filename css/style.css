@@ -1,0 +1,142 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+body {
+    /* color: white; */
+    margin: 0px;
+    padding: 0px;
+    background: url("img/gym.jpg") no-repeat ;
+}
+
+.left {
+    position: absolute;
+    left: 44px;
+    top: 20px;
+    /* border: 2px solid red; */
+    display: inline-block;
+
+}
+
+.left img {
+    width: 100px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    top: 0px auto;
+    width: 45%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 38px;
+    /* border: 2px solid yellow; */
+    display: inline-block;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px;
+    font-size: 25px;
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    ;
+    color: gray;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 23px;
+
+}
+
+.btn:hover {
+    background-color: rgb(77, 66, 66);
+}
+.btn-submit{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 480px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid grey;
+    font-size: 20px;
+    border-radius: 23px;
+}
+.btn-submit:hover {
+    background-color: rgb(77, 66, 66);
+}
+.container {
+    border: 2px solid green;
+    margin: 102px 73px;
+    padding: 75px;
+    width: 30%;
+    border-radius: 12px;
+    
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 470px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid blue;
+    font-size: 20px;
+    border-radius: 23px;
+}
+/* .form-group button{
+    display: block;
+    width: 74%;
+    margin: auto;
+    text-align: center;
+} */
+.container button{
+    display: block;
+    width: 83%;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+.container h1 {
+    text-align: center;
+}
+
